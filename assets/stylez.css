@@ -1,10 +1,10 @@
 @font-face {
-    font-family: Ultimate-Black-Metal;
+    font-family: XXII_Ultimate-Black-Metal;
     src: url("/fonts/XII Ultimate-Black-Metal.ttf");
     font-weight:400;
 }
 	h1 {
-	font-family: 'Ultimate-Black-Metal', Arial, sans-serif;
+	font-family: 'XXII_Ultimate-Black-Metal';
 	font-weight:normal;
 	font-style:normal;
 }
