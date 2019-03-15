@@ -1,4 +1,4 @@
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80 
 RewriteCond %{REQUEST_URI} folder 
-RewriteRule ^(.*)$ https://badvibes.xyz/folder/$1 [R,L]
+RewriteRule ^(.*)$ https://badvibes.xyz/$1 [R,L]
