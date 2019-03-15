@@ -1,6 +1,6 @@
 # Redirect HTTP to HTTPS
 RewriteCond %{HTTPS} !=on
-RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
+RewriteRule (.*) https://badvibes.xyz/$1 [R,L]
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
