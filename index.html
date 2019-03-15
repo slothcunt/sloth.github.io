@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<title>bad vibes</title>
+
+<!-- script/asset refs -->
+		<script src="https://use.fontawesome.com/544301a847.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Finger+Paint|Swanky+and+Moo+Moo" rel="stylesheet">
+		<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/myst.css">
+        <link rel="stylesheet" href="css/animate.css">
+		
+		<script src="js/jquery.js"></script>
+        <script src="js/marquee.js"></script>
+        <script src="js/main.js"></script>
+		<link rel="icon" href="favicon.ico">
+
+<!-- html shit -->		
+<meta http-equiv="content-type" content="text/html;charset=UTF-16" />
+
+<head>
+	<!-- kills cache, cillit bang style shit -->
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+
+<!-- background vid -->
+<audio id="music" preload="auto" autoplay="">
+    <source id="played" src="m/Alone Part 1.mp3" type="audio/mp3">   
+				<script>
+	var audio = document.currentScript.parentElement;
+	audio.volume = 0.2;
+	</script>	
+	</audio>  
+	    <script type="text/javascript">
+        const srcs = [
+			"m/Alone Part 1.mp3", 
+            "m/May I Flex (feat. XXXTENTACION and Momoh).mp3", 
+			"m/Palm Trees (ft. Jajfaru & Nyora Spouse).mp3", 
+			"m/Snow (feat. Killstation).mp3", 
+			"m/Valentine.mp3",
+			"m/white girl.mp3",
+			"m/Blasted.mp3",
+			"m/VC.mp3",
+			"m/Freddy vs Jason (feat. Ski Mask the Slump).mp3",
+        ];
+       
+        let playing = 0;
+   
+        document.getElementById("music").addEventListener('ended', (e) => {
+            playing = (playing + 1)% srcs.length;
+            document.getElementById("played").src = srcs[playing];
+            e.srcElement.load();
+            e.srcElement.play();
+        }, false);
+    </script>
+	
+	<video id="bg" preload="auto" loop muted autoplay style="-webkit-filter: blur(10px) grayscale(100%);filter: blur(10px) grayscale(100%);">
+		<source id="played" src="v/bg.mp4" type="video/mp4" />
+	</video>   
+</head>
+		
+<body scroll="no" style="overflow: hidden">
+	<div id="center">
+
+	<div class="animated fadeIn">
+		<div><pre style="font-size: 30px; font-family: 'Finger Paint', cursive;">bad vibes</pre></div>
+		<div class="death2"><pre style="font-size: 10px">llj</pre></div>
+	</div>
+	<div>
+			<nav>
+				<ul>
+	<li class="animated fadeIn" style="webkit-animation-delay: 1.3s; animation-delay: 1.3s;"><a href="https://www.instagram.com/xxslothtacion/" class="icon" style="text-decoration:none;" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+	<li class="animated fadeIn" style="webkit-animation-delay: 1.9s; animation-delay: 1.9s;"><a href="http://steamcommunity.com/id/ValentineXXX/" class="icon" style="text-decoration:none;" target="_blank"><i class="fa fa-steam" aria-hidden="true"></i></a>
+	<li class="animated fadeIn" style="webkit-animation-delay: 1.6s; animation-delay: 1.6s;"><a href="https://www.twitter.com/xxxslothtacion" class="icon" style="text-decoration:none;" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	<li class="animated fadeIn" style="webkit-animation-delay: 1.3s; animation-delay: 1.3s;"><a href="https://www.youtube.com/channel/UCXnUX3cgkWAbjpqm6Av2q2g?view_as=subscriber" class="icon" style="text-decoration:none;" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+				</ul>
+			</nav>	
+	</div>
+	<div class="animated fadeInUp">
+	<br>
+		<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+	</div>
+</div>
+</body>	
+</html>
