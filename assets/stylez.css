@@ -78,15 +78,6 @@ form {
   color: white;
   text-shadow: 0px 0px 10px white,0px 0px 10px white,0px 0px 10px white,0px 0px 5px #553300,0px 0px 5px #553300;
 }
-.tentacion {
-font-family: 'XXII Ultimate-Black-Metal';
-	font-size: 250%;
-	-webkit-text-stroke-width: 0px;
-   -webkit-text-stroke-color: black;
-  color: white;
-  text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10px #553300,0px 0px 10px #553300;
-}
-
 .shoutout {
 	font-size: 100%;
 	position: absolute;
