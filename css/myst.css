@@ -50,6 +50,36 @@ overflow:hidden;}
 	color: #DBDBDB;
 	font-size: 14px;
 }
+.centerContainer {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden; 
+  }
+  
+.scrollbar::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+}
+
+#membersList {
+  text-align: center;
+  margin-top: 30px;
+  overflow: hidden; 
+  overflow-y: scroll;
+  font-size: 16px;
+  height: 290px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 6px;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border:1px solid rgba(255, 255, 255, 0.7);
+  overflow: hidden;
+}
+
 hr.line {
 	width: 40%;
 }
